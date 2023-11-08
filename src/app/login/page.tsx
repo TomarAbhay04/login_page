@@ -45,7 +45,7 @@ export default function LoginPage() {
 
   return (
     <div className=" min-h-screen flex flex-col items-center justify-center w-full flex-1 px-20 text-center bg-white">
-      <div className="bg-white rounded-lg shadow-lg flex max-w-screen ">
+      <div className="bg-gray rounded-lg shadow-lg flex max-w-screen ">
         <div className="w-3/5 p-5">
           <div className="text-left text-1.5xl">
             <span className="text-green-500 font-bold">Company</span>
@@ -119,7 +119,7 @@ export default function LoginPage() {
 
               <button
                 onClick={onLogin}
-                className="border-2 rounded-full border-green-500 text-green-500 px-12 py-2 inline-block font-semibold hover:bg-green-500 hover:text-white"
+                className="border-2 rounded-full border-green-500 text-green-500 px-12 py-2 inline-block font-semibold hover:bg-green-500 hover:text-gray"
               >
                 Sign In{" "}
               </button>
