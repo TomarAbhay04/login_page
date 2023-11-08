@@ -43,35 +43,6 @@ export default function LoginPage() {
     }
   }, [user]);
 
-  //     return (
-  //         <div className="flex flex-col items-center justify-center min-h-screen py-2">
-
-  // <label htmlFor="email"> email</label>
-  //             <input
-  //                 className="p-2 border border-gray-300 rounded-lg mb-4 focus:outline-none focus: border-gray-600 text-black"
-  //                 id="email"
-  //                 type="text"
-  //                 value={user.email}
-  //                 onChange={(e)=> setUser({...user, email: e.target.value})}
-  //                 placeholder="email"
-  //                 />
-
-  // <label htmlFor="password"> password</label>
-  //             <input
-  //                 className="p-2 border border-gray-300 rounded-lg mb-4 focus:outline-none focus: border-gray-600 text-black"
-  //                 id="password"
-  //                 type="password"
-  //                 value={user.password}
-  //                 onChange={(e)=> setUser({...user, password: e.target.value})}
-  //                 placeholder="password"
-  //                 />
-  //         <button
-  //             onClick={onLogin}
-  //             className="p-2 border border-gray-300 rounded-lg mb-4 focus: outline-none focus: border-gray-600">Login</button>
-  //             <Link href="/signup">visit signup page  </Link>
-  //         </div>
-  //     );
-
   return (
     <div className=" min-h-screen flex flex-col items-center justify-center w-full flex-1 px-20 text-center">
       <div className="bg-white rounded-lg shadow-lg flex max-w-screen ">
