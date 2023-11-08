@@ -44,7 +44,7 @@ export default function LoginPage() {
   }, [user]);
 
   return (
-    <div className=" min-h-screen flex flex-col items-center justify-center w-full flex-1 px-20 text-center">
+    <div className=" min-h-screen flex flex-col items-center justify-center w-full flex-1 px-20 text-center bg-white">
       <div className="bg-white rounded-lg shadow-lg flex max-w-screen ">
         <div className="w-3/5 p-5">
           <div className="text-left text-1.5xl">
